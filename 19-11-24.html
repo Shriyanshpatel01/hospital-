@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Card</title>
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            position: relative;
+            display: inline-block;
+            
+           
+        }
+        .b1{
+background-image: url("https://www.cakesandbakes.in/stories/wp-content/uploads/2024/06/rose.jpg");
+top: 20px;
+left: 205px;
+background-size: 200px 200px;
+        }
+        .b2{
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcVdx1MmfNIBB4cUMGASLgNRTh1Z7TIzEYySBe35ooxcJNnIpxKdUXALzhM8tQA6zqC0Q&usqp=CAU");
+            background-size: 200px 200px;
+            top: 20px;
+            transition: transform;
+            transition-duration: 2s;
+            transform-origin: top left;
+        }
+
+        .b2:hover{
+         transform:perspective(1000px) rotateY(-180deg);
+         
+        }
+    </style>
+</head>
+<body>
+    <div class="b1"></div>
+    <div class="b2"></div>
+</body>
+</html>
